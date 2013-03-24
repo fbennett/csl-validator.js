@@ -351,6 +351,10 @@ Full-Width Styles
   padding-top: 0;
 }
 
+.small-caps {
+    font-variant: small-caps;
+}
+
 #downloads {
   position: absolute;
   width: 210px;
