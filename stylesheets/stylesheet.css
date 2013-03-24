@@ -351,6 +351,11 @@ Full-Width Styles
   padding-top: 0;
 }
 
+.project_link {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .small-caps {
     font-variant: small-caps;
 }
