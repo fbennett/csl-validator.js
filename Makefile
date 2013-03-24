@@ -1,4 +1,4 @@
-EMSCRIPTEN := /Users/simon/Desktop/Development/FS/emscripten
+EMSCRIPTEN := /media/storage/src/emscripten
 EXPAT := deps/expat-2.1.0
 RNV := deps/rnv-1.7.10
 SCHEMA := deps/schema
@@ -33,6 +33,7 @@ csl-validator.tmp.js: $(RNV)/Makefile pre.js deps/schema/csl.rnc
 		"$(TOP)$(EXPAT)/.libs/libexpat.a" \
 		--embed-file csl-categories.rnc \
 		--embed-file csl-data.rnc \
+		--embed-file csl-jurisdictions.rnc \
 		--embed-file csl-terms.rnc \
 		--embed-file csl-types.rnc \
 		--embed-file csl-variables.rnc \
