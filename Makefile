@@ -38,6 +38,7 @@ csl-validator.tmp.js: $(RNV)/Makefile pre.js deps/schema/csl.rnc
 		--embed-file csl-types.rnc \
 		--embed-file csl-variables.rnc \
 		--embed-file csl.rnc \
+		--embed-file csl-mlz.rnc \
 		--pre-js "$(TOP)/pre.js" \
 		--closure 1
 

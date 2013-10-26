@@ -53,7 +53,7 @@ var cslValidatorInput,
 	cslValidatorInputLocation,
 	cslValidatorOutput;
 var Module = {
-	"arguments":["csl.rnc"],
+	"arguments":["csl-mlz.rnc"],
 	"stdin":function() {
 		if(cslValidatorInputLocation < cslValidatorInput.length) {
 			return cslValidatorInput[cslValidatorInputLocation++];
